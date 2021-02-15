@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
 /**
  * Simple pin-down test. Do not use this as an example for a good test ;-)
  */
-public class MainTest {
+public class VideoStoreFullCoverageTest {
 
     @Test
     public void run_fullCoverage() throws Exception {
