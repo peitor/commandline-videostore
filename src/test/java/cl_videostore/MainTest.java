@@ -27,7 +27,7 @@ public class MainTest {
                 "\n";
         final ByteArrayOutputStream consoleOutputStream = new ByteArrayOutputStream();
 
-        new Main(
+        new VideoStore(
                 new ByteArrayInputStream(consoleInput.getBytes(StandardCharsets.UTF_8)),
                 new PrintStream(consoleOutputStream)
         ).run();
